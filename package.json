@@ -21,7 +21,8 @@
     "react-dom": "^18",
     "react-tilt": "^1.0.2",
     "react-vertical-timeline-component": "^3.6.0",
-    "three": "^0.168.0"
+    "three": "^0.168.0",
+    "three-mesh-bvh": "^0.8.0"
   },
   "devDependencies": {
     "@types/draco3d": "^1.4.10",
