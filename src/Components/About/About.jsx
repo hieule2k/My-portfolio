@@ -4,10 +4,10 @@ import { styles } from '@/styles';
 import { fadeIn, textVariant } from '@/utils/motions';
 import { services } from '@/constants';
 
-import { SectionWrapper } from '../hoc';
 import ServiceCard from './ServiceCard';
 import DivAnimate from '../common/DivAnimate';
 import PAnimate from '../common/PAnimate';
+import { SectionWrapper } from '../hoc';
 
 const About = () => {
     return (
