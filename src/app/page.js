@@ -3,6 +3,8 @@ import Image from "next/image";
 import heroBg from "../assets/herobg.png"
 import About from "@/Components/About/About";
 import Experience from "@/Components/ExperienceCard/Experience";
+import Tech from "@/Components/Tech/Tech";
+import Works from "@/Components/Works/Works";
 
 export default function Home() {
   return (
@@ -16,6 +18,8 @@ export default function Home() {
       <Hero />
       <About />
       <Experience />
+      <Tech />
+      <Works />
     </div>
   );
 }

@@ -3,7 +3,7 @@ import React from 'react';
 import { motion } from "framer-motion";
 
 
-const PAnimate = ({ children,className, props }) => {
+const PAnimate = ({ children,className, ...props }) => {
     return (
         <>
             <motion.p className={className} {...props}
