@@ -1,7 +1,7 @@
 'use client'
 import React from 'react';
 import 'react-vertical-timeline-component/style.min.css'
-import { textVariant } from '@/utils/motions';
+import { fadeIn, textVariant } from '@/utils/motions';
 import { styles } from '@/styles';
 import { SectionWrapper } from '../hoc';
 import { VerticalTimeline } from 'react-vertical-timeline-component';
@@ -21,7 +21,7 @@ const Experience = () => {
             <div className='flex flex-col mt-20'>
                 <VerticalTimeline>
                     {experiences.map((experience, index) => (
-                        <ExperienceCard key={index} experience={experience} />
+                            <ExperienceCard key={index} index={index} experience={experience} />
                     ))}
                 </VerticalTimeline>
             </div>
