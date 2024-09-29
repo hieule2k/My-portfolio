@@ -1,8 +1,10 @@
 import Image from 'next/image';
 import React from 'react';
 import { VerticalTimelineElement } from 'react-vertical-timeline-component';
+import DivAnimate from '../common/DivAnimate';
+import { fadeIn } from '@/utils/motions';
 
-const ExperienceCard = ({ experience }) => {
+const ExperienceCard = ({ experience,index }) => {
     return (
         <VerticalTimelineElement contentStyle={{
             background: "#1d1836",
@@ -16,7 +18,7 @@ const ExperienceCard = ({ experience }) => {
                 <Image src={experience.icon} alt={experience.company_name} className='w-[60%] h-[60%] object-contain' />
             </div>}
         >
-            <div className=''>
+            <DivAnimate variants={fadeIn('','',0.1,1)} >
                 <h3 className='text-white text-[24px] font-bold'>
                     {experience.title}
                 </h3>
@@ -31,7 +33,7 @@ const ExperienceCard = ({ experience }) => {
                     ))}
 
                 </ul>
-            </div>
+            </DivAnimate>
         </VerticalTimelineElement>)
 }
 
