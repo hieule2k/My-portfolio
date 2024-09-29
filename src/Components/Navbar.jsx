@@ -18,7 +18,7 @@ const Navbar = () => {
                     setActive("")
                     window.scrollTo(0, 0)
                 }}>
-                    <Image src={logo} alt='logo' className='object-contain w-9 h-9' />
+                    <Image width={36} height={36} src={logo} alt='logo' className='object-contain w-9 h-9' />
                     <p className='text-white justify-center flex text-[18px] font-bold cursor-pointer'>
                         Hieu &nbsp; 
                         <span className='hidden sm:block'>| Frontend Developer</span>
@@ -35,7 +35,7 @@ const Navbar = () => {
                 </ul>
 
                 <div className='flex items-center justify-end flex-1 sm:hidden'>
-                    <Image src={toggle ? close : menu} alt='menu' className='w-[28px] h-[28px] object-contain cursor-pointer' onClick={() => setToggle(!toggle)} />
+                    <Image src={toggle ? close : menu} alt='menu' width={28} height={28} className='w-[28px] h-[28px] object-contain cursor-pointer' onClick={() => setToggle(!toggle)} />
 
                     <div className={`${!toggle ? 'hidden' : 'flex'} p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}>
                         <ul className='flex flex-col items-start justify-end gap-4 list-none'>

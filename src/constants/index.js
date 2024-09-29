@@ -23,6 +23,10 @@ import {
   jobit,
   tripguide,
   threejs,
+  sass,
+  smartOsc,
+  CTH,
+  MH,
 } from "../assets";
 
 export const navLinks = [
@@ -46,11 +50,11 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Frontend Developer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Reactjs Developer",
     icon: backend,
   },
   {
@@ -112,56 +116,47 @@ const technologies = [
     name: "docker",
     icon: docker,
   },
+  {
+    name: "sass",
+    icon:sass,
+  }
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Frontend Developer",
+    company_name: "SmartOSC",
+    icon: smartOsc,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "November 2021 - February 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Developing and maintaining web applications using HTML, CSS and other related technologies.",
+      "Develop frontend skills and modern technologies.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Reactjs-Nextjs Developer",
+    company_name: "CTH",
+    icon: CTH,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "April 2022 - March 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Developing and maintaining web applications using Nextj, React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Frontend Developer",
+    company_name: "MH Solutiuon",
+    icon: MH,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "July 2024 - October 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Developing and maintaining web applications using React.js, Jinja2 and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",

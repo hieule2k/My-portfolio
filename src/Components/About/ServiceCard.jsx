@@ -17,7 +17,7 @@ const ServiceCard = ({index,title,icon})=>{
                 }}
                 className='bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col'
                 >
-                <Image src={icon} alt={title} className='object-contain w-16 h-16' />
+                <Image width={64} height={64} src={icon} alt={title} className='object-contain w-16 h-16' />
                 <h3 className='text-white text-[20px] font-bold text-center'>{title}</h3>
                 </div>
             </DivAnimate>

@@ -28,13 +28,20 @@ import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
+import sass from "./sass.svg"
 import tripguide from "./tripguide.png";
+import smartOsc from "./SmartOSC.png"
+import CTH from "./CTH.png"
+import MH from "./MH.svg"
 
 export {
   logo,
   backend,
   creator,
+  MH,
+  CTH,
   mobile,
+  sass,
   web,
   github,
   menu,
@@ -42,6 +49,7 @@ export {
   css,
   docker,
   figma,
+  smartOsc,
   git,
   html,
   javascript,
