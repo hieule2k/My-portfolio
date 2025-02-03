@@ -12,12 +12,11 @@ import StarsCanvas from "@/Components/Contact/StarsCanvas";
 export default function Home() {
   return (
     <div >
-      <Image
+      {/* <Image
         src={heroBg}
-        layout="fill"
-        objectFit="cover"
+        fill
         alt="Background Image"
-      />
+      /> */}
       <Hero />
       <About />
       <Experience />
