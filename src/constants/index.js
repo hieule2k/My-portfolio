@@ -27,6 +27,7 @@ import {
   smartOsc,
   CTH,
   MH,
+  cobracase
 } from "../assets";
 
 export const navLinks = [
@@ -118,7 +119,7 @@ const technologies = [
   },
   {
     name: "sass",
-    icon:sass,
+    icon: sass,
   }
 ];
 
@@ -143,10 +144,13 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "April 2022 - March 2024",
     points: [
-      "Developing and maintaining web applications using Nextj, React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Develop a user-friendly responsive interface.",
+      "Implement the product tour feature.",
+      "Add and edit words in the dictionary.",
+      "Develop functionalities for the admin page.",
+      "Implement data crawling from dictionary websites (e.g., Cambridge, Laban) for usage.",
+      "Enable users to choose between English and Vietnamese languages.",
+      "Implement a learning flow for children when they want to learn new words."
     ],
   },
   {
@@ -156,10 +160,10 @@ const experiences = [
     iconBg: "#383E56",
     date: "July 2024 - October 2024",
     points: [
-      "Developing and maintaining web applications using React.js, Jinja2 and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Build and complete the open data project for Hậu Giang Province, including a CMS (Content Management System).",
+      "Develop a pharmaceutical website for GPP (Pharmacy Management) and GDP (Distributor Management).",
+      "Implement and refine features for sales, inventory management, ordering, and reporting.",
+      "Fix bugs on the Noron social network.",
     ],
   },
 ];
@@ -193,16 +197,16 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Creative Phone Case",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform that allows users to create and purchase custom phone cases.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "prisma",
         color: "green-text-gradient",
       },
       {
@@ -210,51 +214,51 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: cobracase,
+    source_code_link: "https://github.com/hieule2k/Cobra-case.git",
   },
   {
-    name: "Job IT",
+    name: "Todo App",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web-based platform that allows users to create and drag and drop tasks.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "DnD",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/hieule2k/Trello-App.git",
   },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
-  },
+  // {
+  //   name: "Trip Guide",
+  //   description:
+  //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+  //   tags: [
+  //     {
+  //       name: "nextjs",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "supabase",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: tripguide,
+  //   source_code_link: "https://github.com/",
+  // },
 ];
 
 export { services, technologies, experiences, testimonials, projects };

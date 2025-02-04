@@ -33,6 +33,7 @@ import tripguide from "./tripguide.png";
 import smartOsc from "./SmartOSC.png"
 import CTH from "./CTH.png"
 import MH from "./MH.svg"
+import cobracase from "./cobracase.png"
 
 export {
   logo,
@@ -66,5 +67,6 @@ export {
   tesla,
   carrent,
   jobit,
+  cobracase,
   tripguide,
 };

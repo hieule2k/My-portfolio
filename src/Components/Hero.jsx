@@ -3,6 +3,8 @@ import { styles } from '@/styles';
 import ComputerCanvas from './canvas/Computer';
 import { motion } from "framer-motion";
 import CircleAnimate from './common/CircleAnimate';
+import Image from 'next/image';
+import herobg from "@/assets/second-pic.jpg"
 
 
 const Hero = () => {
@@ -17,11 +19,19 @@ const Hero = () => {
                 <div>
                     <h1 className={`${styles.heroHeadText} text-white`}>Hi, I`m <span className='text-[#915eff]'>Hiếu</span></h1>
                     <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-                        I developer user interfaces <br className='sm:block' /> and web applications.
+                        I'm a developer specializing in user interfaces  <br className='sm:block' /> and web applications.
                     </p>
                 </div>
             </div>
-            <ComputerCanvas />
+            <div className='absolute inset-0 flex items-center justify-center w-full bg-opacity-50 pointer-events-none top-[200px] '>
+                <div className='w-1/2 sm:w-1/3' >
+                    <Image src={herobg}
+                        className='rounded'
+                        alt="Background Image" />
+                </div>
+            </div>
+
+            {/* <ComputerCanvas /> */}
 
             <div className='absolute flex items-center justify-center w-full xs:bottom-10 bottom-32'>
                 <a href='#about'>
@@ -33,7 +43,7 @@ const Hero = () => {
                 </a>
             </div>
 
-        </section>
+        </section >
     );
 };
 
